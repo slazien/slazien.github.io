@@ -1,7 +1,7 @@
 # Setup
 title:               Przemek Zientala
 tagline:             'Notes on things that matter to me'
-description:         'This is my little, personal space on the vast internet; welcome! I hope you will enjoy your stay and learn a thing or two.'
+description:         'This is my little, personal space on the vast internet; welcome!\nI hope you will enjoy your stay and learn a thing or two.'
 url:                 http://slazien.github.io
 baseurl:             ''
 paginate:            5
