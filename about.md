@@ -3,27 +3,10 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Who am I?
+Hi, I'm Przemek! I've graduated from the University of Southampton, majoring in Physical Geography. Ever since taking a class on hypothesis testing in R at the university, I got hooked on all things data science. Why? In my view, data science is a great set of tools to help us objectively analyze and understand the world around us. Things like geopolitics, public health, or weather can all be better understood by taking raw data, giving it a hard look, and using it to answer our questions.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## How to contact me?
+p[dot]zientala[dot]1995[at]gmail[dot]com is the most sure way. Feel free to [drop me a message on LinkedIn](https://www.linkedin.com/in/pzientala/) as well!
 
 Thanks for reading!
