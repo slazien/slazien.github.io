@@ -377,6 +377,28 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+/*
+* Comments
+*/
+.comment-header {
+  align-items  : center;
+  position     : relative;
+  margin-bottom: 0.9rem;
+}
+
+.comment-date-posted {
+  font-size : 0.9rem;
+  font-style: italic;
+}
+
+.username {
+  text-decoration: underline;
+}
+
+.author-badge {
+  border-radius: 0.2rem;
+}
+
 
 /*
  * Pagination

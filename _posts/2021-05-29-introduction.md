@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Another attempt at a personal blog
+comments_id: 1
 ---
 
 This is my _n_<sup>th</sup> attempt at consistently keeping a personal blog up-to-date. Trying this out several years ago I failed, which taught me several lessons that will, hopefully, make things better this time:
