@@ -22,3 +22,4 @@ plugins:
 # Custom vars
 version:             0.42.0
 # google_analytics_id: #UA-XXXX-Y
+issues_repo: slazien/slazien.github.io.comments

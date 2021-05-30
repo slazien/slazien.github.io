@@ -25,3 +25,8 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+<!-- check if comments_id front matter variable was specified and include file for commenting system if yes -->
+{% if page.comments_id %}
+  {% include comments.html issue_id=page.comments_id %}
+{% endif %}
