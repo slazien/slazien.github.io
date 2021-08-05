@@ -104,6 +104,48 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="http://localhost:4000/2021/08/04/sleep-fitbit/">
+        To sleep or not to sleep? That is (not) the question
+      </a>
+    </h1>
+
+    <span class="post-date">04 Aug 2021</span>
+
+    <h2 id="fitbit-more-like-sleepbit">Fitbit? More like Sleepbit</h2>
+
+<p>My amaxzing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other’s stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated <em>tons</em> of detailed sleep tracking data.</p>
+
+<p>The next thing was to get all that data. Knowing how companies tend to make their products as limited as possible in terms of access to your own data, I didn’t have much hope. However, it turns out that Fitbit allows you to export all of your data in… JSON and CSV formats! What a news was that to me!</p>
+
+<h2 id="exploration-time">Exploration time!</h2>
+
+<p>To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years’ worth of data. <a href="https://hub.gke2.mybinder.org/user/slazien-fitbit_analysis-30uv2ahr/notebooks/notebooks/main_analysis.ipynb">An interactive Jupyter notebook is available here</a>.</p>
+
+<h3 id="main-conclusions">Main conclusions</h3>
+
+<p>My analysis:</p>
+
+<ol>
+  <li>
+    <p>Seems to confirm that going to sleep on time improves sleep quality.</p>
+  </li>
+  <li>
+    <p>Confirms my feeling of “not being a dreamer” - I regularly get less REM sleep than I should for my age. This will have to be further diagnosed by a sleep doctor.</p>
+  </li>
+  <li>
+    <p>Confirms that I’m a “light sleeper” quite literally - the vast majority of my sleep stages are light sleep, sometimes to the point of being disproportionately frequent. This partially explains my occasional tiredness during the day.</p>
+  </li>
+  <li>
+    <p>Shows that the duration of a single deep sleep episode as well as the total deep sleep time per night is highly variable, which helps explain days where I feel very refreshed one day and tired the next one.</p>
+  </li>
+</ol>
+
+<p>Overall, this was a great exercise in data wrangling and using using Plotly to make interactive graphs. I hope you enjoy it as much as I did!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="http://localhost:4000/2021/06/16/highways/">
         On speed limits and lane counts on highways
       </a>

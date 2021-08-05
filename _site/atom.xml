@@ -4,7 +4,7 @@
  <title>Przemek Zientala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-07-14T16:12:00+02:00</updated>
+ <updated>2021-08-05T10:50:56-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Przemek Zientala</name>
@@ -13,9 +13,47 @@
 
  
  <entry>
+   <title>To sleep or not to sleep? That is (not) the question</title>
+   <link href="http://localhost:4000/2021/08/04/sleep-fitbit/"/>
+   <updated>2021-08-04T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2021/08/04/sleep-fitbit</id>
+   <content type="html">&lt;h2 id=&quot;fitbit-more-like-sleepbit&quot;&gt;Fitbit? More like Sleepbit&lt;/h2&gt;
+
+&lt;p&gt;My amaxzing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other’s stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated &lt;em&gt;tons&lt;/em&gt; of detailed sleep tracking data.&lt;/p&gt;
+
+&lt;p&gt;The next thing was to get all that data. Knowing how companies tend to make their products as limited as possible in terms of access to your own data, I didn’t have much hope. However, it turns out that Fitbit allows you to export all of your data in… JSON and CSV formats! What a news was that to me!&lt;/p&gt;
+
+&lt;h2 id=&quot;exploration-time&quot;&gt;Exploration time!&lt;/h2&gt;
+
+&lt;p&gt;To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years’ worth of data. &lt;a href=&quot;https://hub.gke2.mybinder.org/user/slazien-fitbit_analysis-30uv2ahr/notebooks/notebooks/main_analysis.ipynb&quot;&gt;An interactive Jupyter notebook is available here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;main-conclusions&quot;&gt;Main conclusions&lt;/h3&gt;
+
+&lt;p&gt;My analysis:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seems to confirm that going to sleep on time improves sleep quality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Confirms my feeling of “not being a dreamer” - I regularly get less REM sleep than I should for my age. This will have to be further diagnosed by a sleep doctor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Confirms that I’m a “light sleeper” quite literally - the vast majority of my sleep stages are light sleep, sometimes to the point of being disproportionately frequent. This partially explains my occasional tiredness during the day.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Shows that the duration of a single deep sleep episode as well as the total deep sleep time per night is highly variable, which helps explain days where I feel very refreshed one day and tired the next one.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Overall, this was a great exercise in data wrangling and using using Plotly to make interactive graphs. I hope you enjoy it as much as I did!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>On speed limits and lane counts on highways</title>
    <link href="http://localhost:4000/2021/06/16/highways/"/>
-   <updated>2021-06-16T00:00:00+02:00</updated>
+   <updated>2021-06-16T00:00:00-04:00</updated>
    <id>http://localhost:4000/2021/06/16/highways</id>
    <content type="html">&lt;p&gt;I’ve recently moved out of Paris due to soon ending my wonderful journey with Datadog. Thanks to my parents helping me out, it was much easier than doing it all alone. Still, this was a much more logistically complicated process than I initially thought:&lt;/p&gt;
 
@@ -66,7 +104,7 @@
  <entry>
    <title>Another attempt at a personal blog</title>
    <link href="http://localhost:4000/2021/05/29/introduction/"/>
-   <updated>2021-05-29T00:00:00+02:00</updated>
+   <updated>2021-05-29T00:00:00-04:00</updated>
    <id>http://localhost:4000/2021/05/29/introduction</id>
    <content type="html">&lt;p&gt;This is my &lt;em&gt;n&lt;/em&gt;&lt;sup&gt;th&lt;/sup&gt; attempt at consistently keeping a personal blog up-to-date. Trying this out several years ago I failed, which taught me several lessons that will, hopefully, make things better this time:&lt;/p&gt;
 
@@ -83,7 +121,7 @@
  <entry>
    <title>A quantitative look at happiness</title>
    <link href="http://localhost:4000/2021/05/29/happiness/"/>
-   <updated>2021-05-29T00:00:00+02:00</updated>
+   <updated>2021-05-29T00:00:00-04:00</updated>
    <id>http://localhost:4000/2021/05/29/happiness</id>
    <content type="html">&lt;h2 id=&quot;more-questions-than-answers&quot;&gt;More questions than answers&lt;/h2&gt;
 &lt;p&gt;Not too long ago, I took a &lt;a href=&quot;https://www.coursera.org/learn/the-science-of-well-being&quot;&gt;happiness course&lt;/a&gt; on coursera - “The science of well-being” by Laurie Santos. It is a fantastic, eye-opening course about what &lt;em&gt;actually&lt;/em&gt; makes us happy, as opposed to what our brains make us &lt;em&gt;think&lt;/em&gt; makes us happy.&lt;/p&gt;
