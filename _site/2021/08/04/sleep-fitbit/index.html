@@ -9,12 +9,12 @@
 
   <title>
     
-    A quantitative look at happiness &middot; Przemek Zientala
+    To sleep or not to sleep? That is (not) the question &middot; Przemek Zientala
     
   </title>
 
   
-  <link rel="canonical" href="http://localhost:4000/2021/05/29/happiness/">
+  <link rel="canonical" href="http://localhost:4000/2021/08/04/sleep-fitbit/">
   
 
   <link rel="stylesheet" href="http://localhost:4000/public/css/poole.css">
@@ -101,30 +101,38 @@
 
     <div class="container content">
       <div class="post">
-  <h1 class="post-title">A quantitative look at happiness</h1>
-  <span class="post-date">29 May 2021</span>
-  <h2 id="more-questions-than-answers">More questions than answers</h2>
-<p>Not too long ago, I took a <a href="https://www.coursera.org/learn/the-science-of-well-being">happiness course</a> on coursera - “The science of well-being” by Laurie Santos. It is a fantastic, eye-opening course about what <em>actually</em> makes us happy, as opposed to what our brains make us <em>think</em> makes us happy.</p>
+  <h1 class="post-title">To sleep or not to sleep? That is (not) the question</h1>
+  <span class="post-date">04 Aug 2021</span>
+  <h2 id="fitbit-more-like-sleepbit">Fitbit? More like Sleepbit</h2>
 
-<p>After taking the course, lots of questions naturally came to mind: are all people happy on more or less the same level around the world? Does money <em>really</em> not make us happy? Can we predict collective happiness levels of societies by looking at suicide rates? All questions, no answers.</p>
+<p>My amaxzing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other’s stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated <em>tons</em> of detailed sleep tracking data.</p>
 
-<h2 id="data-to-the-rescue">Data to the rescue</h2>
-<p>Naturally, to have a go at answering these, I had to find relevant data. The <a href="https://www.kaggle.com/mathurinache/world-happiness-report">World Happiness Report data</a> looked great for my purpose. I also found a <a href="https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016">suicide rates overview dataset</a> which I later merged with the happiness one. Data cleaning clearly took the longest due to some inconsistencies and missing data in several datasets. However, afterwards, it was mostly smooth sailing.</p>
+<p>The next thing was to get all that data. Knowing how companies tend to make their products as limited as possible in terms of access to your own data, I didn’t have much hope. However, it turns out that Fitbit allows you to export all of your data in… JSON and CSV formats! What a news was that to me!</p>
 
-<p>The complete analysis of both datasets is <a href="https://nbviewer.jupyter.org/github/slazien/happiness_analysis/blob/master/happiness.ipynb">here</a> - have a look if you want to dive deeper into the methods used and see the graphs.</p>
+<h2 id="exploration-time">Exploration time!</h2>
 
-<h2 id="conclusions">Conclusions</h2>
-<p>All in all, the data mostly supported what I learned in the course, and gave me some answers to my questions. The most important conclusions are:</p>
+<p>To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years’ worth of data. <a href="https://hub.gke2.mybinder.org/user/slazien-fitbit_analysis-30uv2ahr/notebooks/notebooks/main_analysis.ipynb">An interactive Jupyter notebook is available here</a>.</p>
 
-<p><strong>1. Money is not as important as we think in making us happy</strong></p>
+<h3 id="main-conclusions">Main conclusions</h3>
 
-<p><strong>2. Good relationships and good health are important contributors to our happiness</strong></p>
+<p>My analysis:</p>
 
-<p><strong>3. The degree to which you’re happy / likely to commit a suicide varies considerably with where you live in the world</strong></p>
+<ol>
+  <li>
+    <p>Seems to confirm that going to sleep on time improves sleep quality.</p>
+  </li>
+  <li>
+    <p>Confirms my feeling of “not being a dreamer” - I regularly get less REM sleep than I should for my age. This will have to be further diagnosed by a sleep doctor.</p>
+  </li>
+  <li>
+    <p>Confirms that I’m a “light sleeper” quite literally - the vast majority of my sleep stages are light sleep, sometimes to the point of being disproportionately frequent. This partially explains my occasional tiredness during the day.</p>
+  </li>
+  <li>
+    <p>Shows that the duration of a single deep sleep episode as well as the total deep sleep time per night is highly variable, which helps explain days where I feel very refreshed one day and tired the next one.</p>
+  </li>
+</ol>
 
-<p><strong>4. High / low suicide rates don’t imply low / high happiness scores. In other words - suicide rates are poor predictors of happiness</strong></p>
-
-<p>Now go talk to your family and friends, have a walk in the nature or have a run - this is almost sure to make you more happy :)</p>
+<p>Overall, this was a great exercise in data wrangling and using using Plotly to make interactive graphs. I hope you enjoy it as much as I did!</p>
 
 </div>
 
@@ -132,15 +140,6 @@
 <div class="related">
   <h2>Related posts</h2>
   <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/2021/08/04/sleep-fitbit/">
-            To sleep or not to sleep? That is (not) the question
-            <small>04 Aug 2021</small>
-          </a>
-        </h3>
-      </li>
     
       <li>
         <h3>
@@ -155,6 +154,15 @@
         <h3>
           <a href="/2021/05/29/introduction/">
             Another attempt at a personal blog
+            <small>29 May 2021</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2021/05/29/happiness/">
+            A quantitative look at happiness
             <small>29 May 2021</small>
           </a>
         </h3>
