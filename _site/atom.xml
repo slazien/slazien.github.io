@@ -4,7 +4,7 @@
  <title>Przemek Zientala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-08-05T10:50:56-04:00</updated>
+ <updated>2021-08-05T11:00:31-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Przemek Zientala</name>
@@ -102,27 +102,10 @@
  </entry>
  
  <entry>
-   <title>Another attempt at a personal blog</title>
-   <link href="http://localhost:4000/2021/05/29/introduction/"/>
-   <updated>2021-05-29T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2021/05/29/introduction</id>
-   <content type="html">&lt;p&gt;This is my &lt;em&gt;n&lt;/em&gt;&lt;sup&gt;th&lt;/sup&gt; attempt at consistently keeping a personal blog up-to-date. Trying this out several years ago I failed, which taught me several lessons that will, hopefully, make things better this time:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Keeping it simple.&lt;/strong&gt; My old personal website was too complicated to update. Say hi to procrastination.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Staying focused.&lt;/strong&gt; What is my goal with a personal blog? I didn’t use to have a clear goal, which means I didn’t have an incentive to keep it up to date.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Keeping records of my learning helps with motivation.&lt;/strong&gt; This is tied to the previous point. I want to have some sort of a virtual “diary” where I note down what I learned. &lt;em&gt;“Use a personal notepad like Joplin”&lt;/em&gt;, I hear you say. The issue is - my notes tend to become messy, and by expecting &lt;em&gt;some&lt;/em&gt; visitors, it makes me think twice (* 10) before publishing. &lt;em&gt;Does it have any value to the reader?&lt;/em&gt;, &lt;em&gt;Is it easily comprehensible?&lt;/em&gt; are just a couple of questions that I hope will improve my writing skills. As an aspiring Data Scientist, being a good writer is arguably a crucial skill.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And… that’s about it! I have kept it short this time to make sure that I can get started with &lt;em&gt;something&lt;/em&gt;, however small (thanks &lt;em&gt;Atomic Habits&lt;/em&gt;).&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>A quantitative look at happiness</title>
-   <link href="http://localhost:4000/2021/05/29/happiness/"/>
-   <updated>2021-05-29T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2021/05/29/happiness</id>
+   <link href="http://localhost:4000/2021/05/30/happiness/"/>
+   <updated>2021-05-30T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2021/05/30/happiness</id>
    <content type="html">&lt;h2 id=&quot;more-questions-than-answers&quot;&gt;More questions than answers&lt;/h2&gt;
 &lt;p&gt;Not too long ago, I took a &lt;a href=&quot;https://www.coursera.org/learn/the-science-of-well-being&quot;&gt;happiness course&lt;/a&gt; on coursera - “The science of well-being” by Laurie Santos. It is a fantastic, eye-opening course about what &lt;em&gt;actually&lt;/em&gt; makes us happy, as opposed to what our brains make us &lt;em&gt;think&lt;/em&gt; makes us happy.&lt;/p&gt;
 
@@ -131,7 +114,7 @@
 &lt;h2 id=&quot;data-to-the-rescue&quot;&gt;Data to the rescue&lt;/h2&gt;
 &lt;p&gt;Naturally, to have a go at answering these, I had to find relevant data. The &lt;a href=&quot;https://www.kaggle.com/mathurinache/world-happiness-report&quot;&gt;World Happiness Report data&lt;/a&gt; looked great for my purpose. I also found a &lt;a href=&quot;https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016&quot;&gt;suicide rates overview dataset&lt;/a&gt; which I later merged with the happiness one. Data cleaning clearly took the longest due to some inconsistencies and missing data in several datasets. However, afterwards, it was mostly smooth sailing.&lt;/p&gt;
 
-&lt;p&gt;The complete analysis of both datasets is &lt;a href=&quot;https://nbviewer.jupyter.org/github/slazien/happiness_analysis/blob/master/happiness.ipynb&quot;&gt;here&lt;/a&gt; - have a look if you want to dive deeper into the methods used and see the graphs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/slazien/happiness_analysis/blob/master/happiness.ipynb&quot;&gt;The complete analysis of both datasets is here - have a look if you want to dive deeper into the methods used and see the graphs.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
 &lt;p&gt;All in all, the data mostly supported what I learned in the course, and gave me some answers to my questions. The most important conclusions are:&lt;/p&gt;
@@ -145,6 +128,23 @@
 &lt;p&gt;&lt;strong&gt;4. High / low suicide rates don’t imply low / high happiness scores. In other words - suicide rates are poor predictors of happiness&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Now go talk to your family and friends, have a walk in the nature or have a run - this is almost sure to make you more happy :)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Another attempt at a personal blog</title>
+   <link href="http://localhost:4000/2021/05/29/introduction/"/>
+   <updated>2021-05-29T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2021/05/29/introduction</id>
+   <content type="html">&lt;p&gt;This is my &lt;em&gt;n&lt;/em&gt;&lt;sup&gt;th&lt;/sup&gt; attempt at consistently keeping a personal blog up-to-date. Trying this out several years ago I failed, which taught me several lessons that will, hopefully, make things better this time:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Keeping it simple.&lt;/strong&gt; My old personal website was too complicated to update. Say hi to procrastination.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Staying focused.&lt;/strong&gt; What is my goal with a personal blog? I didn’t use to have a clear goal, which means I didn’t have an incentive to keep it up to date.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keeping records of my learning helps with motivation.&lt;/strong&gt; This is tied to the previous point. I want to have some sort of a virtual “diary” where I note down what I learned. &lt;em&gt;“Use a personal notepad like Joplin”&lt;/em&gt;, I hear you say. The issue is - my notes tend to become messy, and by expecting &lt;em&gt;some&lt;/em&gt; visitors, it makes me think twice (* 10) before publishing. &lt;em&gt;Does it have any value to the reader?&lt;/em&gt;, &lt;em&gt;Is it easily comprehensible?&lt;/em&gt; are just a couple of questions that I hope will improve my writing skills. As an aspiring Data Scientist, being a good writer is arguably a crucial skill.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And… that’s about it! I have kept it short this time to make sure that I can get started with &lt;em&gt;something&lt;/em&gt;, however small (thanks &lt;em&gt;Atomic Habits&lt;/em&gt;).&lt;/p&gt;
 </content>
  </entry>
  
