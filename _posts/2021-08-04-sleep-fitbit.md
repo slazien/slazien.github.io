@@ -11,7 +11,7 @@ The next thing was to get all that data. Knowing how companies tend to make thei
 
 ## Exploration time!
 
-To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years' worth of data. [An interactive Jupyter notebook is available here](https://hub.gke2.mybinder.org/user/slazien-fitbit_analysis-30uv2ahr/notebooks/notebooks/main_analysis.ipynb).
+To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years' worth of data. [An interactive Jupyter notebook is available here](https://mybinder.org/v2/gh/slazien/fitbit_analysis/4140b6c56bfb1b448364fc58344d23383c86e387?filepath=notebooks%2Fmain_analysis.ipynb).
 
 ### Main conclusions
 
