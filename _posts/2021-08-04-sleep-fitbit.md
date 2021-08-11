@@ -5,7 +5,7 @@ title: To sleep or not to sleep? That is (not) the question
 
 ## Fitbit? More like Sleepbit
 
-My amaxzing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other's stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated *tons* of detailed sleep tracking data.
+My amazing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other's stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated tons of detailed sleep tracking data. And I really mean *tons*.
 
 The next thing was to get all that data. Knowing how companies tend to make their products as limited as possible in terms of access to your own data, I didn't have much hope. However, it turns out that Fitbit allows you to export all of your data in... JSON and CSV formats! What a news was that to me!
 
