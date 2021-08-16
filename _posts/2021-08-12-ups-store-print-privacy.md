@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Print a stranger's identity at your local post office
+title: Your local post office is (probably) a privacy nightmare
 ---
 
 ## An (extra)ordinary visit
