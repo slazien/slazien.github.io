@@ -4,7 +4,7 @@
  <title>Przemek Zientala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2021-08-06T10:40:05-04:00</updated>
+ <updated>2021-08-12T22:10:00-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Przemek Zientala</name>
@@ -13,19 +13,86 @@
 
  
  <entry>
+   <title>Print a stranger's identity at your local post office</title>
+   <link href="http://localhost:4000/2021/08/12/ups-store-print-privacy/"/>
+   <updated>2021-08-12T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2021/08/12/ups-store-print-privacy</id>
+   <content type="html">&lt;h2 id=&quot;an-extraordinary-visit&quot;&gt;An (extra)ordinary visit&lt;/h2&gt;
+&lt;p&gt;So here’s a little story for today. The other day I needed to print some documents at a local UPS store. After arriving, I quickly found out that the only options are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use the PCs to download the docs and send the printing job to the printers there
+OR&lt;/li&gt;
+  &lt;li&gt;Send an email to a store employee who would print them out for me&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the privacy and security-conscious ones among us, this should already raise huge red flags:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What if you log in to your email inbox and forget to log off, realizing only a couple hours or days later?&lt;/li&gt;
+  &lt;li&gt;What if there is a physical keylogger capturing your login details?&lt;/li&gt;
+  &lt;li&gt;What if someone pointed the OS to make DNS reuqests to a malicious DNS server, routing you to malicious websites despite you typing in the right URL?&lt;/li&gt;
+  &lt;li&gt;How do you really ensure that the employee deleted the email you sent them containing your sensitive documents?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are just a few things that come to mind, and all of them are &lt;em&gt;very&lt;/em&gt; real possibilities [TODO: add real-world examples to each point if possible]. It’s extremely unlikely that I’m the only one who has ever thoughts of this, and given the number of varous post office stores offering printing services in the US alone, and the number of bad actors out there, I would be very surprised if at least some of those things are not happening as I’m typing this. “Oh, come on, Windows 10 has a firewall that’s on by default” you might say. At least in that UPS store it was &lt;em&gt;disabled&lt;/em&gt;, which is of course a can of worms from a security standpoint.&lt;/p&gt;
+
+&lt;p&gt;Have you ever thought “I want to start my life all over again”? Well, your local post office with printing service might got you covered. If you’re into identity theft, simply go to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Downloads&lt;/code&gt; folder on the PC and copy all the files there onto your pendrive (be a good person and &lt;strong&gt;don’t do that&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-see-who-you-really-are&quot;&gt;Let’s see who you really are&lt;/h2&gt;
+&lt;p&gt;I was absolutely terrified at just how sensitive information was left in that folder, and by the sheer number of documents. Even without opening any of the files, I saw insurance policy details, student IDs, driver’s license and passport photocopies, and many more. Put some of these things together and you’re giving the bad guys more than they need to steal your identity and literally turn your life upside down. Your perfect credit score that you worked so hard for over the years? Yeah, that’s gone, and with it so many things that follow. Access to your bank account and your money? You’ll certainly find out once your internet stops working and your landlord comes knocking at your door for that overdue rent payment.&lt;/p&gt;
+
+&lt;h2 id=&quot;but-i-really-need-to-print-now&quot;&gt;But I &lt;em&gt;really&lt;/em&gt; need to print &lt;em&gt;now&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;In general, you should always treat machines that you don’t trust as compromised. This leads to the simplest “fix” for this security nightmare - just don’t use printing services at post office locations, period. Get your own computer and printer.&lt;/p&gt;
+
+&lt;p&gt;The above is easier said than done, though. Perhaps you’ve just moved to a new apartment and you don’t have your printer there yet. What are the next best things you can do, if you &lt;em&gt;really&lt;/em&gt; can’t wait? Here are some ways to minimize the risks:&lt;/p&gt;
+
+&lt;h3 id=&quot;ask-your-neighbours-to-print-your-stuff-for-you-make-sure-you-trust-them&quot;&gt;Ask your neighbours to print your stuff for you (make sure you trust them!)&lt;/h3&gt;
+&lt;p&gt;Side benefit: you’ll get to know them better, and &lt;a href=&quot;TODO: link needed&quot;&gt;research hsa shown&lt;/a&gt; that doing favours for someone makes them like you more!&lt;/p&gt;
+
+&lt;h3 id=&quot;bring-your-own-stuff&quot;&gt;Bring your own stuff&lt;/h3&gt;
+&lt;p&gt;Bring your own laptop to the post office, add the printer, and send the printing job to the printer
+This might not always be possible, in case you can’t (or don’t want to) connect to the post office’s local network&lt;/p&gt;
+
+&lt;p&gt;If you’re less extreme, bring your own keyboard if you’re worried about physical keyloggers (still - check the USB ports for any suspicious dongles). People might look at you in a weird way if you really bring your own keyboard. However, if you really want to avoid physical keyloggers, that’s the safest option&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-download&quot;&gt;Don’t download&lt;/h3&gt;
+&lt;p&gt;Instead of downloading the file, many browsers allow you to open the file without persisting it to disk. This is what you should generally use, since even after downloading the file and removing it from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Trash&lt;/code&gt;, it can still technically be recovered.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-factor-authentication&quot;&gt;2-factor authentication&lt;/h3&gt;
+&lt;p&gt;Make sure that whichever accounts you log in on the post office PC have 2FA enabled, and that you change passwords for all of them after you come back home
+Remeber, we’re assuming that these machines have been compromised. Changing a couple of passwords is easy these days, especially if you’re using a password manager. There’s really no excuse.&lt;/p&gt;
+
+&lt;p&gt;The above are all short-term fixes, however. What can be done in the long term?&lt;/p&gt;
+
+&lt;h2 id=&quot;back-to-the-basics&quot;&gt;Back to the basics&lt;/h2&gt;
+&lt;p&gt;Most people don’t follow the latest developments in software security, nor should they have to in order to ensure their data is safe. So, what can be done to prevent &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Downloads&lt;/code&gt; folders being full of highly sensitive informaiton just waiting to be exploited?&lt;/p&gt;
+
+&lt;h3 id=&quot;account-logoff-process-changes&quot;&gt;Account logoff process changes&lt;/h3&gt;
+&lt;p&gt;A simple fix is to implement software security measures such as wiping the contents of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Downloads&lt;/code&gt; or, even better, the entire account, after logging off. I would imagine this is a standard feature of guest accounts on Windows 10 (TODO: check), so I’m surprised this was turned off at the UPS store.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-factor-authentication-enforcement&quot;&gt;2-factor authentication enforcement&lt;/h3&gt;
+&lt;p&gt;This one is obvious - if you &lt;em&gt;have to&lt;/em&gt; use these PCs, at the very least have 2FA enabled for the accounts you log in on them.&lt;/p&gt;
+
+&lt;h3 id=&quot;raising-awareness&quot;&gt;Raising awareness&lt;/h3&gt;
+&lt;p&gt;The files left in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Downloads&lt;/code&gt; folder are a direct consequence of people not removing them from there. Therefore, educating people on basic security and privacy topics should continue and even increase in intensity, as the massive move to the digital space goes on around the world. Although this option is slow and costly, remember this: prevention is always better than treatment.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>To sleep or not to sleep? That is (not) the question</title>
    <link href="http://localhost:4000/2021/08/04/sleep-fitbit/"/>
    <updated>2021-08-04T00:00:00-04:00</updated>
    <id>http://localhost:4000/2021/08/04/sleep-fitbit</id>
    <content type="html">&lt;h2 id=&quot;fitbit-more-like-sleepbit&quot;&gt;Fitbit? More like Sleepbit&lt;/h2&gt;
 
-&lt;p&gt;My amaxzing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other’s stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated &lt;em&gt;tons&lt;/em&gt; of detailed sleep tracking data.&lt;/p&gt;
+&lt;p&gt;My amazing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other’s stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated tons of detailed sleep tracking data. And I really mean &lt;em&gt;tons&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;The next thing was to get all that data. Knowing how companies tend to make their products as limited as possible in terms of access to your own data, I didn’t have much hope. However, it turns out that Fitbit allows you to export all of your data in… JSON and CSV formats! What a news was that to me!&lt;/p&gt;
 
 &lt;h2 id=&quot;exploration-time&quot;&gt;Exploration time!&lt;/h2&gt;
 
-&lt;p&gt;To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years’ worth of data. &lt;a href=&quot;https://hub.gke2.mybinder.org/user/slazien-fitbit_analysis-30uv2ahr/notebooks/notebooks/main_analysis.ipynb&quot;&gt;An interactive Jupyter notebook is available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To uncover what my sleep data tries to tell me, I did an in-depth analysis of 1.5 years’ worth of data. &lt;a href=&quot;https://mybinder.org/v2/gh/slazien/fitbit_analysis/4140b6c56bfb1b448364fc58344d23383c86e387?filepath=notebooks%2Fmain_analysis.ipynb&quot;&gt;An interactive Jupyter notebook is available here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;main-conclusions&quot;&gt;Main conclusions&lt;/h3&gt;
 
