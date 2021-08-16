@@ -17,7 +17,7 @@ For the privacy and security-conscious ones among us, this should already raise 
 - What if someone pointed the OS to make DNS reuqests to a malicious DNS server, routing you to malicious websites despite you typing in the right URL?
 - How do you really ensure that the employee deleted the email you sent them containing your sensitive documents?
 
-These are just a few things that come to mind, and all of them are *very* real possibilities [TODO: add real-world examples to each point if possible]. It's extremely unlikely that I'm the only one who has ever thoughts of this, and given the number of varous post office stores offering printing services in the US alone, and the number of bad actors out there, I would be very surprised if at least some of those things are not happening as I'm typing this. "Oh, come on, Windows 10 has a firewall that's on by default" you might say. At least in that UPS store it was *disabled*, which is of course a can of worms from a security standpoint.
+These are just a few things that come to mind, and all of them are *very* real possibilities. It's extremely unlikely that I'm the only one who has ever thoughts of this, and given the number of varous post office stores offering printing services in the US alone, and the number of bad actors out there, I would be very surprised if at least some of those things are not happening as I'm typing this. "Oh, come on, Windows 10 has a firewall that's on by default" you might say. At least in that UPS store it was *disabled*, which is of course a can of worms from a security standpoint.
 
 Have you ever thought "I want to start my life all over again"? Well, your local post office with printing service might got you covered. If you're into identity theft, simply go to the `Downloads` folder on the PC and copy all the files there onto your pendrive (be a good person and **don't do that**).
 
@@ -30,7 +30,7 @@ In general, you should always treat machines that you don't trust as compromised
 The above is easier said than done, though. Perhaps you've just moved to a new apartment and you don't have your printer there yet. What are the next best things you can do, if you *really* can't wait? Here are some ways to minimize the risks:
 
 ### Ask your neighbours to print your stuff for you (make sure you trust them!)
-Side benefit: you'll get to know them better, and [research hsa shown](TODO: link needed) that doing favours for someone makes them like you more!
+Side benefit: you'll get to know them better, and [according to the Benjamin Franklin effect](https://effectiviology.com/benjamin-franklin-effect/), doing favours for someone makes a person like them more!
 
 ### Bring your own stuff
 Bring your own laptop to the post office, add the printer, and send the printing job to the printer
@@ -51,7 +51,7 @@ The above are all short-term fixes, however. What can be done in the long term?
 Most people don't follow the latest developments in software security, nor should they have to in order to ensure their data is safe. So, what can be done to prevent `Downloads` folders being full of highly sensitive informaiton just waiting to be exploited?
 
 ### Account logoff process changes
-A simple fix is to implement software security measures such as wiping the contents of `Downloads` or, even better, the entire account, after logging off. I would imagine this is a standard feature of guest accounts on Windows 10 (TODO: check), so I'm surprised this was turned off at the UPS store.
+A simple fix is to implement software security measures such as wiping the contents of `Downloads` or, even better, the entire account, after logging off. I would imagine this is a standard feature of guest accounts on Windows 10, so I'm surprised it didn't function at the UPS store.
 
 ### 2-factor authentication enforcement
 This one is obvious - if you *have to* use these PCs, at the very least have 2FA enabled for the accounts you log in on them.
