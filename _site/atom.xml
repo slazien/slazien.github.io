@@ -4,11 +4,7 @@
  <title>Przemek Zientala</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
-<<<<<<< HEAD
- <updated>2021-08-16T19:14:07-04:00</updated>
-=======
- <updated>2021-08-16T19:27:11-04:00</updated>
->>>>>>> main
+ <updated>2021-08-17T16:30:55-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Przemek Zientala</name>
@@ -221,38 +217,5 @@ Remeber, we’re assuming that these machines have been compromised. Changing a 
 </content>
  </entry>
  
-<<<<<<< HEAD
- <entry>
-   <title>A quantitative look at happiness</title>
-   <link href="http://localhost:4000/2021/05/29/happiness/"/>
-   <updated>2021-05-29T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2021/05/29/happiness</id>
-   <content type="html">&lt;h2 id=&quot;more-questions-than-answers&quot;&gt;More questions than answers&lt;/h2&gt;
-&lt;p&gt;Not too long ago, I took a &lt;a href=&quot;https://www.coursera.org/learn/the-science-of-well-being&quot;&gt;happiness course&lt;/a&gt; on coursera - “The science of well-being” by Laurie Santos. It is a fantastic, eye-opening course about what &lt;em&gt;actually&lt;/em&gt; makes us happy, as opposed to what our brains make us &lt;em&gt;think&lt;/em&gt; makes us happy.&lt;/p&gt;
-
-&lt;p&gt;After taking the course, lots of questions naturally came to mind: are all people happy on more or less the same level around the world? Does money &lt;em&gt;really&lt;/em&gt; not make us happy? Can we predict collective happiness levels of societies by looking at suicide rates? All questions, no answers.&lt;/p&gt;
-
-&lt;h2 id=&quot;data-to-the-rescue&quot;&gt;Data to the rescue&lt;/h2&gt;
-&lt;p&gt;Naturally, to have a go at answering these, I had to find relevant data. The &lt;a href=&quot;https://www.kaggle.com/mathurinache/world-happiness-report&quot;&gt;World Happiness Report data&lt;/a&gt; looked great for my purpose. I also found a &lt;a href=&quot;https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016&quot;&gt;suicide rates overview dataset&lt;/a&gt; which I later merged with the happiness one. Data cleaning clearly took the longest due to some inconsistencies and missing data in several datasets. However, afterwards, it was mostly smooth sailing.&lt;/p&gt;
-
-&lt;p&gt;The complete analysis of both datasets is &lt;a href=&quot;https://nbviewer.jupyter.org/github/slazien/happiness_analysis/blob/master/happiness.ipynb&quot;&gt;here&lt;/a&gt; - have a look if you want to dive deeper into the methods used and see the graphs.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-&lt;p&gt;All in all, the data mostly supported what I learned in the course, and gave me some answers to my questions. The most important conclusions are:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Money is not as important as we think in making us happy&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Good relationships and good health are important contributors to our happiness&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. The degree to which you’re happy / likely to commit a suicide varies considerably with where you live in the world&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. High / low suicide rates don’t imply low / high happiness scores. In other words - suicide rates are poor predictors of happiness&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Now go talk to your family and friends, have a walk in the nature or have a run - this is almost sure to make you more happy :)&lt;/p&gt;
-</content>
- </entry>
- 
-=======
->>>>>>> main
 
 </feed>
