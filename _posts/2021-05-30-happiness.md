@@ -2,9 +2,10 @@
 layout: post
 title: A quantitative look at happiness
 ---
+**[Jupyter notebook link](https://nbviewer.jupyter.org/github/slazien/happiness_analysis/blob/master/happiness.ipynb)**
 
 ## More questions than answers
-Not too long ago, I took a [happiness course](https://www.coursera.org/learn/the-science-of-well-being) on coursera - "The science of well-being" by Laurie Santos. It is a fantastic, eye-opening course about what *actually* makes us happy, as opposed to what our brains make us *think* makes us happy.
+Not too long ago, I took a [happiness course](https://www.coursera.org/learn/the-science-of-well-being) on Coursera - "The science of well-being" by Laurie Santos. It is a fantastic, eye-opening course about what *actually* makes us happy, as opposed to what our brains make us *think* makes us happy.
 
 After taking the course, lots of questions naturally came to mind: are all people happy on more or less the same level around the world? Does money *really* not make us happy? Can we predict collective happiness levels of societies by looking at suicide rates? All questions, no answers.
 
