@@ -3,6 +3,8 @@ layout: post
 title: To sleep or not to sleep? That is (not) the question
 ---
 
+**[Jupyter notebook link](https://mybinder.org/v2/gh/slazien/fitbit_analysis/4140b6c56bfb1b448364fc58344d23383c86e387?filepath=notebooks%2Fmain_analysis.ipynb)**
+
 ## Fitbit? More like Sleepbit
 
 My amazing girlfriend once had a great idea for a Christmas gift - a small Fitbit. She also got one, which helped us stay fit by encouraging each other to beat each other's stats. A great side effect I discovered only later on is that wearing the Fitbit every day for 1.5 years generated tons of detailed sleep tracking data. And I really mean *tons*.
